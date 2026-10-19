@@ -1,0 +1,56 @@
+{
+    "ordering": [
+        ["A1"]
+    ],
+    "brand": {
+        "brand": "custom",
+        "brandId": []
+    },
+    "metadata": {
+        "displayName": "beaker stirplate 30mL",
+        "displayCategory": "stirPlate",
+        "displayVolumeUnits": "µL",
+        "tags": []
+    },
+    "dimensions": {
+        "xDimension": 127.7,
+        "yDimension": 85.58,
+        "zDimension": 98.88
+    },
+    "wells": {
+        "A1": {
+            "depth": 54,
+            "totalLiquidVolume": 30000,
+            "shape": "circular",
+            "diameter": 33.7,
+            "x": 21.81,
+            "y": 70.69,
+            "z": 47.2
+        }
+
+    },
+    "groups": [
+        {
+            "metadata": {
+                "wellBottomShape": "flat"
+            },
+            "wells": [
+                "A1"]
+        }
+    ],
+    "parameters": {
+        "format": "irregular",
+        "quirks": [],
+        "isTiprack": false,
+        "isMagneticModuleCompatible": false,
+        "loadName": "beaker stirplate 30mL"
+    },
+    "namespace": "custom_beta",
+    "version": 1,
+    "schemaVersion": 2,
+    "cornerOffsetFromSlot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    }
+}
